@@ -6,4 +6,8 @@ const project = new Project({
   // parent: undefined,  /* The parent project, if this project is part of a bigger project. */
 });
 
+const common_exclude = ['node_modules'];
+project.npmignore.exclude(...common_exclude);
+project.gitignore.exclude(...common_exclude);
+
 project.synth();
