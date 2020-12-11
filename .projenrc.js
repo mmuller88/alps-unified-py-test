@@ -6,7 +6,7 @@ const project = new Project({
   // parent: undefined,  /* The parent project, if this project is part of a bigger project. */
 });
 
-const common_exclude = ['node_modules'];
+const common_exclude = ['node_modules', '.venv', '.vscode'];
 project.gitignore.exclude(...common_exclude);
 
 project.synth();
