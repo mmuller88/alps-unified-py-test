@@ -7,7 +7,6 @@ const project = new Project({
 });
 
 const common_exclude = ['node_modules'];
-project.npmignore.exclude(...common_exclude);
 project.gitignore.exclude(...common_exclude);
 
 project.synth();
