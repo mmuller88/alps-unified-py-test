@@ -1,3 +1,4 @@
 pip==19.0.3
 wheel==0.33.1
 alps-unified-ts==0.0.20
+prowler-sdk-poc==0.0.1
